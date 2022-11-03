@@ -31,11 +31,30 @@ Open source, use as you like, adapt as you need.
 - Sheer disdain for tedium
 
 ### Upcoming
-update tags (airtable to zotero)
-update notes (airtable summary to zotero) (new note?)
-checking for matches to update either zotero or airtable
-make authors table to link papers
-automating using triggers (e.g. new paper added, new note)
-creating front-endUI
-make this more like an api for future proofing
+- update tags (airtable to zotero)
+- update notes (airtable summary to zotero) (new note?)
+- checking for matches to update either zotero or airtable
+- make authors table to link papers
+- automating using triggers (e.g. new paper added, new note)
+- creating front-endUI
+- make this more like an api for future proofing
+- link Zotero added/modified datetime to airtable fields
+- add backref/fwdref since airtable uses different values
 
+airtable side
+- put recent updates (n)
+- flag to not include notes ?
+- check if note exists (what if note updates, save update - how check for what updated?)
+
+paper annotated
+- call api w/ # notes added (sort through X to find notes, add papers separately if found)
+- update airtable w/ quotes + link back/backref on main table?
+
+- flag to not include notes ?
+- check if paper parent key exists if not add
+
+notes will share same key id and parent key? how differentiate? list of entries under color or other?
+need to parse out citation for page number use regex though
+
+values updated 
+go to interface to add summary from filter on yellow/green colors (savable?)
